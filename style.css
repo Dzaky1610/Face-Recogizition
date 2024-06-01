@@ -1,0 +1,36 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8f8f8f;
+    margin: 0;
+}
+ #container-video {
+    padding: 10px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    animation: glow 1.5s infinite alternate;
+}
+ #video {
+    display: block;
+    width: 640px;
+    height: 480px;
+    border-radius: 10px;
+}
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #333;
+        border-color: #ffffff;
+    }
+    to {
+        box-shadow: 0 0 20px #00eaff, 0 0 30px #00eaff, 0 0 40px #00eaff;
+        border-color: #00eaff;
+    }
+}  
+
+canvas{
+    position:absolute;
+}
