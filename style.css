@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #8f8f8f;
+    background-color: #eed0f3;
     margin: 0;
 }
  #container-video {
@@ -23,14 +23,30 @@
 @keyframes glow {
     from {
         box-shadow: 0 0 5px #333;
-        border-color: #ffffff;
+        border-color: #faf4f4;
     }
     to {
-        box-shadow: 0 0 20px #00eaff, 0 0 30px #00eaff, 0 0 40px #00eaff;
-        border-color: #00eaff;
+        box-shadow: 0 0 20px #660675, 0 0 30px #660675, 0 0 40px #660675;
+        border-color: #660675;
     }
 }  
 
 canvas{
     position:absolute;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+#logocn{
+  position:absolute;
+  top: 10px;
+  left:10px;
+}
+
+#logopplg{
+    position:absolute;
+    top:10px;
+    right:10px;
 }
